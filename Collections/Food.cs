@@ -8,5 +8,7 @@ namespace Collections
 {
     class Food
     {
+        public string Name { get; set; }
+        public bool GlutenFree { get; set; }
     }
 }
